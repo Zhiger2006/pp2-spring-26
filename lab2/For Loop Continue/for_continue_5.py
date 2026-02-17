@@ -1,11 +1,12 @@
 n = 19
 count = 0
+for j in range(2,n+1):
+    for i in range(1, n+1):
+        if n%i==0:
+            count+=1
 
-for i in range(1, n+1):
-    if n%i==0:
-        count+=1
-
-if count==2:
-    print("YES")
-else:
-    print("NO")
+    if count==2:
+        print("YES")
+        count=count+1
+    else:
+        print("NO")
