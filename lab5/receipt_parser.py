@@ -41,4 +41,4 @@ data = {
     "products": products
 }
 
-print(*json.dumps(data, indent=4, ensure_ascii=False))
+print(json.dumps(data, indent=4, ensure_ascii=False))
