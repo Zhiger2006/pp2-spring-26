@@ -1,5 +1,4 @@
-CREATE TABLE phonebook (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(100),
-    phone VARCHAR(20)
+CREATE TABLE contacts (
+    name VARCHAR,
+    phone VARCHAR
 );

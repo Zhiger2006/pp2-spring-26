@@ -1,9 +1,6 @@
 import re
 import json
 
-with open("raw.txt", "r", encoding="utf-8") as f:
-    text = f.read()
-
 def to_float_ru(s: str) -> float:
     s = s.replace(" ", "").replace(",", ".")
     return float(s)
